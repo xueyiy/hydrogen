@@ -72,7 +72,6 @@ The project is configured for Shopify Oxygen deployment by default.
 ├── public/              # Static assets
 ├── .env.example         # Environment variables template
 ├── package.json         # Dependencies and scripts
-├── remix.config.js      # Remix configuration
 ├── tsconfig.json        # TypeScript configuration
 └── vite.config.ts       # Vite configuration
 ```
