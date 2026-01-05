@@ -1,0 +1,39 @@
+{
+  "name": "hydrogen-test-project",
+  "version": "1.0.0",
+  "description": "Simple Hydrogen framework project for testing deployment",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "shopify hydrogen build",
+    "dev": "shopify hydrogen dev",
+    "preview": "shopify hydrogen preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@shopify/hydrogen": "^2024.10.0",
+    "@shopify/remix-oxygen": "^1.0.0",
+    "@remix-run/react": "^2.10.0",
+    "@remix-run/server-runtime": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.10.0",
+    "@shopify/cli": "^3.0.0",
+    "@shopify/cli-hydrogen": "^6.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
