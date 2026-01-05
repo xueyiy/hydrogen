@@ -8,6 +8,7 @@
   "scripts": {
     "build": "shopify hydrogen build",
     "dev": "shopify hydrogen dev",
+    "start": "node launcher.js preview",
     "preview": "shopify hydrogen preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "typecheck": "tsc --noEmit"
